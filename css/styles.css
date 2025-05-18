@@ -185,11 +185,22 @@ padding-bottom: 52px;
 
 /* Секція герой */
 .hero {
+    background-color: #191c26;
+    background-image: linear-gradient(to right, #fff 12%, #191c26 12%);
     height: 680px;
 }
 .hero .container {
+    position: relative;
+    display: flex;
+}
+.hero-left-side {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 100px;
+}
+/* .hero .container {
      /* background-image: url(../images/png/диван_1170x600_bw.png);   */
-     background-color: #191c26;                  
+     /* background-color: #191c26;                  
    max-width: 1280px;
    margin-left: auto;
    margin-right: auto;
@@ -198,11 +209,15 @@ background-size: 120%;
    padding-top: 150px;
 padding-bottom: 150px;
 position: relative;
-}
+}  */
 .hero .list {
      display: flex;
     align-items: center;
     gap: 30px; 
+}
+.socials-list {
+transform: translateX(27px) translateY(100px) rotate(-90deg);
+transform-origin: top left;
 }
 .hero .link {
 font-weight: 600;
@@ -230,20 +245,19 @@ color: #303030;
 }
 
 .slider-item {
-    margin-bottom: 12px;
+     margin-bottom: 5px; 
     width: 8px;
     height: 2px;
     background-color: #fff;
 }
 
-.slider-item {
+.slider-item:last-child {
     margin-bottom: 0;
 }
-
-.slider-item.active {
+.slider-item .active {
     width: 100%;
-
 }
+
 .slider-controls {
     position: absolute;
     right: 0;
