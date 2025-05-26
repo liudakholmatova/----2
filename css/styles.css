@@ -114,6 +114,7 @@ text-decoration: none;
         cursor: pointer;
 }
 .slider-btn-disable {
+    position: relative;
     text-align: left;
     color: rgba(157, 164, 189, 0.6);
     border-color: rgba(157, 164, 189, 0.6);
@@ -235,7 +236,7 @@ color: #303030;
     padding-top: 272px;
     width: 476px;
 }
-.hero .slider-pagination {
+.slider-pagination { 
     position: absolute;
     top: 50%;
     right: 0;
@@ -255,8 +256,9 @@ color: #303030;
 .slider-item:last-child {
     margin-bottom: 0;
 }
-.slider-item .active {
+.slider-item.active {
     width: 100%;
+    color: white;
 }
 
 .slider-controls {
@@ -264,6 +266,7 @@ color: #303030;
     right: 0;
     bottom: 0;
 }
+
 .hero .uppertitle {
     margin-bottom: 20px;
     display: flex;
