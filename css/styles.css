@@ -192,6 +192,7 @@ padding-bottom: 52px;
     height: 680px;
 }
 .hero .container {
+    outline: 1px solid red;
     position: relative;
     display: flex;
 }
@@ -236,7 +237,7 @@ color: #303030;
     padding-top: 272px;
     width: 476px;
 }
-.slider-pagination { 
+.hero .slider-pagination { 
     position: absolute;
     top: 50%;
     right: 0;
@@ -271,8 +272,6 @@ color: #303030;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-
-    margin-bottom: 20px;
     font-family: Open Sans;
         font-weight: 600;
         font-size: 11px;
@@ -281,13 +280,13 @@ color: #303030;
         text-transform: uppercase;
         color:rgba(157, 164, 189, 0.6);
 }
- .uppertitle::before { 
+ .hero .uppertitle::before { 
     content: "";
     display: block;
     margin-right: 20px;
     width: 60px;
     height: 1px;
-    background-color:  #191c26;
+    background-color:  white;
 }
 .hero .title {
     margin-bottom: 20px;
