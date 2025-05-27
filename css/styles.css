@@ -205,18 +205,24 @@ padding-bottom: 52px;
 .hero .list {
      display: flex;
     align-items: center;
-    /* gap: 30px;  */
+  
 }
+
 .socials-list {
 transform: translateX(27px) translateY(-70px) rotate(-90deg);
 transform-origin: top left;
+
 }
 .hero .link {
+    margin-right: 30px;
 font-weight: 600;
 font-size: 11px;
 line-height: 1.36;
 letter-spacing: 0.2em;
 color: #303030;
+}
+.socials-list .item:last-child .link{
+    margin-right: 0;
 }
 .hero .link:hover,
 .hero .link:focus {
