@@ -186,15 +186,24 @@ padding-bottom: 52px;
 
 
 /* Секція герой */
+/* .hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 680px;
+    background: ...;
+    z-index: -1;
+} */
 
-.hero .container {
+ .hero .container {
     outline: 1px solid red;
     position: relative;
     display: flex;
     height: 680px;
     width: 100vw;
     padding: 0;
-}
+} 
 .hero-left-side {
     display: flex;
     align-items: flex-end;
@@ -270,8 +279,8 @@ color: #303030;
 
 .slider-controls {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 3%;
+    bottom: 3%;
 }
 
 .hero .uppertitle {
