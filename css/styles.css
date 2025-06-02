@@ -194,9 +194,39 @@ padding-bottom: 52px;
 .header-phone:focus {
     color: var(--accent-cl);
 }
+.bacrdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+width: 500px;
+height: 400px;
+background-color: #fff;
+border-radius: 20px;
+}
+.modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #FF6C00;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 
 
-/* Секція герой */
+/* Секц
+ія герой */
 /* .hero {
     position: absolute;
     top: 0;
