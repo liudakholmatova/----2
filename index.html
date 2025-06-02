@@ -66,10 +66,12 @@
             </svg>
             +38 066 019 19 18</a
           >
-          <button class="btn btn-mode-light" type="button">Онлайн запис</button>
-          <div class="bacrdrop">
+          <button class="btn btn-mode-light" type="button" data-modal-open>
+            Онлайн запис
+          </button>
+          <div class="bacrdrop" data-modal>
             <div class="modal-wrapper">
-              <button class="modal-btn">x</button>
+              <button class="modal-btn" data-modal-close>x</button>
               <form class="modal-form"></form>
             </div>
           </div>
@@ -326,5 +328,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
